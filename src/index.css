@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.App {
+  background-color: darkslategrey;
+  min-height: 100vh;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(54, 53, 53);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgb(54, 53, 53);
+}
+
+.todoform {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.todoInput {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  font-size: large;
+  border-radius: 5px;
+  outline: none;
+}
+
+.todoUl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todolist {
+  align-items: center;
+  margin: 20px 0;
+  display: flex;
+  padding: 5px 5px;
+  width: 450px;
+  border-bottom: 1px solid white;
+}
+
+.todoText {
+  text-transform: capitalize;
+  flex: 1;
+  font-size: larger;
+  /* text-decoration: line-through; */
+}
+
+.inputcheck {
+  width: 16px;
+  height: 16px;
+}
